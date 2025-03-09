@@ -1,0 +1,32 @@
+// Estructura del Mod para Opera GX - Jesús como León de Judá
+
+const mod = {
+    name: "Lion of Judah Theme",
+    description: "Un tema inspirado en Jesús como el León de Judá, con colores dorados y efectos épicos.",
+    version: "1.0",
+    author: "[Tu Nombre]",
+    settings: {
+        colors: {
+            primary: "#D4AF37", // Dorado
+            secondary: "#8B0000", // Rojo oscuro
+            background: "#000000" // Negro
+        },
+        sounds: {
+            openTab: "lion-roars-with-growls-and-inhales-195839.mp3", // Rugido al abrir una pestaña
+            closeTab: "lion-roar-6011.mp3" // Rugido más suave al cerrar una pestaña
+        },
+        fonts: {
+            main: "Old English Text MT"
+        },
+        wallpaper: "image.png", // Fondo personalizado de Jesús como el León de Judá
+        effects: {
+            glow: true // Efecto de resplandor dorado animado
+        },
+        verse: {
+            text: "Entonces vi el cielo abierto; y he aquí un caballo blanco, y el que lo montaba se llamaba Fiel y Verdadero, y con justicia juzga y pelea.",
+            reference: "Apocalipsis 19:11"
+        }
+    }
+};
+
+export default mod;
